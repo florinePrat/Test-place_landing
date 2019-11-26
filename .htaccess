@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^premium?$ src/premium.php
+RewriteRule ^inscription?$ src/classique.php
+RewriteRule ^inscriptionclient?$ src/classiqueclient.php
+RewriteRule ^contact?$ src/contact.php
+RewriteRule ^contactclient?$ src/contactclient.php
+RewriteRule ^ensavoirplus?$ src/ensavoir.php
+RewriteRule ^ensavoirplusclient?$ src/ensavoirclient.php
+RewriteRule ^mentionslegales?$ src/mentionslegales.php
+RewriteRule ^mentionslegalesclient?$ src/mentionslegalesclient.php
+RewriteRule ^premiumclient?$ src/premiumclient.php
+RewriteRule ^acceuilvendeur?$ indexvendeur.php
+RewriteRule ^acceuilclient?$ indexclient.php
